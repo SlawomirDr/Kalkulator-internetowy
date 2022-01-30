@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    background: rgb(43, 8, 245);
+  }
+  
+  h2 {
+    padding: 10px;
+    color: rgb(47, 14, 236);
+    font-size: 40px;
+    font-weight: strong;
+  }
+  
+  h3 {
+      padding: 10px;
+      font-size: 26px;
+      font-weight: light;
+  }
+
+  .first {
+    margin-left: 10px;
+    font-size: 22px;
+    color: blue;
+  }
+  
+  .second {
+    margin-left: 30px;
+    font-size: 18px;
+    color: orange;
+  }
+
+  .bold {
+    color:blueviolet;
+    font-size: 32px;  
+    font-weight:bold;
+  }
+
+  ul {
+      font-size: 24px;
+  }
+
+  label {
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 26px;
+  }
+
+  input {
+    font-size: 18px;
+  }

@@ -1,0 +1,27 @@
+{% extends "parent.html" %}
+{% block content %}
+<h1> Wybierz interesującą Cię walutę </h1>
+
+<form action="/kalkulator" method="POST">
+<label for="waluty">Wybierz walutę:</label>
+        <select name="waluta_name" id="waluta_id">
+          {% for key in przeli %}
+          <option>{{key}}</option>
+          {% endfor %}
+        </select>
+        
+        <h1> Podj ilość jaką chcesz kupić </h1>
+        
+          <div class="container">
+            <label for="ilosc_waluty"><b>Ilosc</b></label>
+            <input type="digit" placeholder="Ilość waluty" name="ilosc_waluty" required>
+            
+          </div>
+  
+        <input type="submit" value="Zatwierdź">
+      
+      </form>
+
+{% endblock %}
+
+
